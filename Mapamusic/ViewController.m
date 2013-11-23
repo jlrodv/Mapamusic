@@ -8,11 +8,21 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
 
-@end
 
 @implementation ViewController
+
+-(IBAction)pulsamu{
+    musica *music=[[musica alloc] initWithNibName:nil bundle:nil];
+    [self presentModalViewController:music animated:YES];
+
+}
+
+-(IBAction)pulsam{
+    
+    mapaViewController *map =[[mapaViewController alloc] initWithNibName:nil bundle:nil];
+    [self presentModalViewController:map animated:YES];
+}
 
 - (void)viewDidLoad
 {

@@ -7,7 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "mapaViewController.h"
+#import "musica.h"
 @interface ViewController : UIViewController
+
+
+
+
+
+{
+    
+    IBOutlet UIButton *botonm;
+    IBOutlet UIButton *botonmu;
+    
+
+}
+-(IBAction) pulsam;
+-(IBAction) pulsamu;
+
 
 @end

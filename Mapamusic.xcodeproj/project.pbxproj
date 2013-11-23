@@ -18,8 +18,19 @@
 		7640DED715E837AB00061B47 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7640DED615E837AB00061B47 /* SenTestingKit.framework */; };
 		7640DED815E837AB00061B47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7640DEB815E837AB00061B47 /* UIKit.framework */; };
 		7640DED915E837AB00061B47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7640DEBA15E837AB00061B47 /* Foundation.framework */; };
-		7640DEE115E837AB00061B47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7640DEDF15E837AB00061B47 /* InfoPlist.strings */; };
-		7640DEE415E837AB00061B47 /* MapamusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7640DEE315E837AB00061B47 /* MapamusicTests.m */; };
+		7640DEF615E83D6400061B47 /* mapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7640DEF415E83D6400061B47 /* mapaViewController.m */; };
+		7640DEF715E83D6400061B47 /* mapaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7640DEF515E83D6400061B47 /* mapaViewController.xib */; };
+		7640DEF915E83ECE00061B47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7640DEF815E83ECE00061B47 /* MapKit.framework */; };
+		A08E362C15EBB1EE004E763E /* musica.m in Sources */ = {isa = PBXBuildFile; fileRef = A08E362A15EBB1EE004E763E /* musica.m */; };
+		A08E362D15EBB1EE004E763E /* musica.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08E362B15EBB1EE004E763E /* musica.xib */; };
+		A08E363015EBB417004E763E /* jo.png in Resources */ = {isa = PBXBuildFile; fileRef = A08E362F15EBB417004E763E /* jo.png */; };
+		A08E363315EBB4CA004E763E /* pausa.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A08E363115EBB4CA004E763E /* pausa.PNG */; };
+		A08E363415EBB4CA004E763E /* play.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A08E363215EBB4CA004E763E /* play.PNG */; };
+		A08E363615EBB575004E763E /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = A08E363515EBB575004E763E /* button.png */; };
+		A08E363815EBBA3F004E763E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A08E363715EBBA3E004E763E /* AVFoundation.framework */; };
+		A08E363A15EBBE10004E763E /* 1-01 Countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A08E363915EBBE10004E763E /* 1-01 Countdown.mp3 */; };
+		A08E365315EBE201004E763E /* loc.m in Sources */ = {isa = PBXBuildFile; fileRef = A08E365215EBE201004E763E /* loc.m */; };
+		A08E365515EBE56F004E763E /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = A08E365415EBE56F004E763E /* stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,10 +59,22 @@
 		7640DECE15E837AB00061B47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		7640DED515E837AB00061B47 /* MapamusicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapamusicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7640DED615E837AB00061B47 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		7640DEDE15E837AB00061B47 /* MapamusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapamusicTests-Info.plist"; sourceTree = "<group>"; };
-		7640DEE015E837AB00061B47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7640DEE215E837AB00061B47 /* MapamusicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapamusicTests.h; sourceTree = "<group>"; };
-		7640DEE315E837AB00061B47 /* MapamusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapamusicTests.m; sourceTree = "<group>"; };
+		7640DEF315E83D6400061B47 /* mapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mapaViewController.h; path = ../mapaViewController.h; sourceTree = "<group>"; };
+		7640DEF415E83D6400061B47 /* mapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = mapaViewController.m; path = ../mapaViewController.m; sourceTree = "<group>"; };
+		7640DEF515E83D6400061B47 /* mapaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = mapaViewController.xib; path = ../mapaViewController.xib; sourceTree = "<group>"; };
+		7640DEF815E83ECE00061B47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A08E362915EBB1EE004E763E /* musica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = musica.h; sourceTree = "<group>"; };
+		A08E362A15EBB1EE004E763E /* musica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = musica.m; sourceTree = "<group>"; };
+		A08E362B15EBB1EE004E763E /* musica.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = musica.xib; sourceTree = "<group>"; };
+		A08E362F15EBB417004E763E /* jo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jo.png; sourceTree = "<group>"; };
+		A08E363115EBB4CA004E763E /* pausa.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausa.PNG; sourceTree = "<group>"; };
+		A08E363215EBB4CA004E763E /* play.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.PNG; sourceTree = "<group>"; };
+		A08E363515EBB575004E763E /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		A08E363715EBBA3E004E763E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A08E363915EBBE10004E763E /* 1-01 Countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1-01 Countdown.mp3"; sourceTree = "<group>"; };
+		A08E365115EBE201004E763E /* loc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = loc.h; path = ../loc.h; sourceTree = "<group>"; };
+		A08E365215EBE201004E763E /* loc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = loc.m; path = ../loc.m; sourceTree = "<group>"; };
+		A08E365415EBE56F004E763E /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A08E363815EBBA3F004E763E /* AVFoundation.framework in Frameworks */,
+				7640DEF915E83ECE00061B47 /* MapKit.framework in Frameworks */,
 				7640DEB915E837AB00061B47 /* UIKit.framework in Frameworks */,
 				7640DEBB15E837AB00061B47 /* Foundation.framework in Frameworks */,
 				7640DEBD15E837AB00061B47 /* CoreGraphics.framework in Frameworks */,
@@ -82,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				7640DEBE15E837AB00061B47 /* Mapamusic */,
-				7640DEDC15E837AB00061B47 /* MapamusicTests */,
 				7640DEB715E837AB00061B47 /* Frameworks */,
 				7640DEB515E837AB00061B47 /* Products */,
 			);
@@ -100,6 +124,8 @@
 		7640DEB715E837AB00061B47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A08E363715EBBA3E004E763E /* AVFoundation.framework */,
+				7640DEF815E83ECE00061B47 /* MapKit.framework */,
 				7640DEB815E837AB00061B47 /* UIKit.framework */,
 				7640DEBA15E837AB00061B47 /* Foundation.framework */,
 				7640DEBC15E837AB00061B47 /* CoreGraphics.framework */,
@@ -115,7 +141,21 @@
 				7640DEC815E837AB00061B47 /* AppDelegate.m */,
 				7640DECA15E837AB00061B47 /* ViewController.h */,
 				7640DECB15E837AB00061B47 /* ViewController.m */,
+				7640DEF315E83D6400061B47 /* mapaViewController.h */,
+				7640DEF415E83D6400061B47 /* mapaViewController.m */,
+				A08E362915EBB1EE004E763E /* musica.h */,
+				A08E362A15EBB1EE004E763E /* musica.m */,
+				A08E365115EBE201004E763E /* loc.h */,
+				A08E365215EBE201004E763E /* loc.m */,
+				A08E363915EBBE10004E763E /* 1-01 Countdown.mp3 */,
 				7640DECD15E837AB00061B47 /* ViewController.xib */,
+				A08E362B15EBB1EE004E763E /* musica.xib */,
+				7640DEF515E83D6400061B47 /* mapaViewController.xib */,
+				A08E363115EBB4CA004E763E /* pausa.PNG */,
+				A08E363515EBB575004E763E /* button.png */,
+				A08E363215EBB4CA004E763E /* play.PNG */,
+				A08E365415EBE56F004E763E /* stop.png */,
+				A08E362F15EBB417004E763E /* jo.png */,
 				7640DEBF15E837AB00061B47 /* Supporting Files */,
 			);
 			path = Mapamusic;
@@ -128,25 +168,6 @@
 				7640DEC115E837AB00061B47 /* InfoPlist.strings */,
 				7640DEC415E837AB00061B47 /* main.m */,
 				7640DEC615E837AB00061B47 /* Mapamusic-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7640DEDC15E837AB00061B47 /* MapamusicTests */ = {
-			isa = PBXGroup;
-			children = (
-				7640DEE215E837AB00061B47 /* MapamusicTests.h */,
-				7640DEE315E837AB00061B47 /* MapamusicTests.m */,
-				7640DEDD15E837AB00061B47 /* Supporting Files */,
-			);
-			path = MapamusicTests;
-			sourceTree = "<group>";
-		};
-		7640DEDD15E837AB00061B47 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7640DEDE15E837AB00061B47 /* MapamusicTests-Info.plist */,
-				7640DEDF15E837AB00061B47 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -196,7 +217,7 @@
 		7640DEAB15E837AB00061B47 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Jonathan Olvera";
 			};
 			buildConfigurationList = 7640DEAE15E837AB00061B47 /* Build configuration list for PBXProject "Mapamusic" */;
@@ -224,6 +245,14 @@
 			files = (
 				7640DEC315E837AB00061B47 /* InfoPlist.strings in Resources */,
 				7640DECF15E837AB00061B47 /* ViewController.xib in Resources */,
+				7640DEF715E83D6400061B47 /* mapaViewController.xib in Resources */,
+				A08E362D15EBB1EE004E763E /* musica.xib in Resources */,
+				A08E363015EBB417004E763E /* jo.png in Resources */,
+				A08E363315EBB4CA004E763E /* pausa.PNG in Resources */,
+				A08E363415EBB4CA004E763E /* play.PNG in Resources */,
+				A08E363615EBB575004E763E /* button.png in Resources */,
+				A08E363A15EBBE10004E763E /* 1-01 Countdown.mp3 in Resources */,
+				A08E365515EBE56F004E763E /* stop.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +260,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7640DEE115E837AB00061B47 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +289,9 @@
 				7640DEC515E837AB00061B47 /* main.m in Sources */,
 				7640DEC915E837AB00061B47 /* AppDelegate.m in Sources */,
 				7640DECC15E837AB00061B47 /* ViewController.m in Sources */,
+				7640DEF615E83D6400061B47 /* mapaViewController.m in Sources */,
+				A08E362C15EBB1EE004E763E /* musica.m in Sources */,
+				A08E365315EBE201004E763E /* loc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +299,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7640DEE415E837AB00061B47 /* MapamusicTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +329,6 @@
 			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
-		7640DEDF15E837AB00061B47 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7640DEE015E837AB00061B47 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -317,6 +339,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -344,6 +369,9 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
@@ -366,6 +394,7 @@
 				GCC_PREFIX_HEADER = "Mapamusic/Mapamusic-Prefix.pch";
 				INFOPLIST_FILE = "Mapamusic/Mapamusic-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -377,6 +406,7 @@
 				GCC_PREFIX_HEADER = "Mapamusic/Mapamusic-Prefix.pch";
 				INFOPLIST_FILE = "Mapamusic/Mapamusic-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -434,6 +464,7 @@
 				7640DEE915E837AB00061B47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7640DEEA15E837AB00061B47 /* Build configuration list for PBXNativeTarget "MapamusicTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +473,7 @@
 				7640DEEC15E837AB00061B47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
